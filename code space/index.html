@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Code Executor</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        iframe {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Code Space</h1>
+    </header>
+    <main>
+        <section class="wrapper" id="#home" >
+            <div id="stars"></div>  
+        </sections>
+        <div class="editor-container">
+            <textarea id="code-editor" placeholder="Write your code here">hello world</textarea>
+            <iframe id="output-frame" frameborder="2"></iframe>
+        </div>
+        <div class="btn"><button id="execute-button">RUN</button></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
